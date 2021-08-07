@@ -15,7 +15,7 @@ const login = async(req, res = response) => {
         if (!usuarioDB) {
             return res.status(404).json({
                 ok: false,
-                msg: 'Email no encontrado en login'
+                msg: 'Email no encontrado'
             });
         }
 
